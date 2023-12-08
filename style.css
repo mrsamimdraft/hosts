@@ -82,6 +82,9 @@ h6 {
   background: #040b14;
   overflow-y: auto;
 }
+.img-fluid rounded-circle {
+  border: 2px solid black;
+}
 
 #header .profile img {
   margin: 15px auto;
@@ -245,6 +248,7 @@ h6 {
   background-size: cover;
   loading: lazy;
 }
+
 
 #hero:before {
   content: "";

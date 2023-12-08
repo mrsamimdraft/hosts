@@ -82,7 +82,7 @@ h6 {
   background: #040b14;
   overflow-y: auto;
 }
-.img-fluid rounded-circle {
+.img-fluid {
   border: 2px solid black;
 }
 

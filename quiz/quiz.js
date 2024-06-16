@@ -70,20 +70,3 @@ function selectOption(question, option) {
     document.getElementById('answer').value = option;
 }
 
-function validateNext() {
-    const selectedOption = document.querySelector('.option.selected[data-question="<?php echo $current_question + 1; ?>"]');
-    if (!selectedOption) {
-        alert("Please select an option.");
-        return false;
-    }
-    return true;
-}
-
-function validateFinish() {
-    const selectedOption = document.querySelector('.option.selected[data-question="<?php echo $current_question + 1; ?>"]');
-    if (!selectedOption) {
-        alert("Please select an option to finish.");
-        return false;
-    }
-    return true;
-}
